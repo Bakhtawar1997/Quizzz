@@ -1,0 +1,152 @@
+
+/* first.css */
+.wrapper{
+    background-color: blueviolet;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.text{
+    text-align: center;
+    margin-top: 280px;
+    
+}
+.text input{
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+
+}
+/* .main-btn button{
+    padding: 20px 0;
+    border: none;
+    width: 100%;
+    background-color: white;
+    color: #341f97;
+    border-radius: 100px;
+    transition: 0.4s all;
+    font-size: 20px;
+} */
+/* .main-btn button:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.main-btn button:focus,
+.text input:focus{
+    outline: none;
+} */
+
+
+
+.top-btn{
+    padding: 20px 0;
+    border: none;
+    width: 100%;
+    background-color: white;
+    color: #341f97;
+    border-radius: 100px;
+    transition: 0.4s all;
+    font-size: 20px;
+}
+.top-btn:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.top-btn:focus
+.text input:focus{
+    outline: none;
+}
+
+
+
+.main-page{
+    display: grid;
+    grid-template-rows: 60px auto;
+    max-width: 600px;
+    min-height: 550px;
+    border: 2px solid none;
+    border-radius: 60px;
+    margin: 5% auto;
+    background-color: bisque;
+    margin-top: 50px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding-left:30px;
+    font-family: 'Calligraffitti', cursive;
+    justify-content: space-between;
+    background-color: rgb(235, 235, 183);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3);
+}
+.body-part{
+    margin-top: 5%;
+    width: 400px;
+    /* padding: 5px 25px; */
+    border-radius: 60px;
+    text-align: center;
+    justify-content: center;
+    background-color: bisque;
+
+}
+.options{
+    list-style: none;
+    margin: 10px 0;
+    margin-right: 60px;
+    
+
+}
+.select{
+    background-color: seashell;
+    width: 300px;
+    padding: 15px 20px; 
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: 2px solid transparent;
+}
+.select:hover{
+    cursor: pointer;
+    border: 2px solid  rgb(235, 235, 183) ;
+}
+.next-btn{
+    background-color: rgb(235, 235, 183);
+    padding: 15px 35px;
+    border: none;
+    border-radius: 27px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Calligraffitti', cursive;
+}
+.next-btn:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.next-btn:focus{
+    outline: none;
+}
+/* Main Active Class */
+.active{
+    background-color: rgb(235, 235, 183); 
+
+}
+/* last.css */
+.icon{
+    font-size: 200px;
+    color: tan;
+    text-align: center;
+}
+.user-name{
+    margin-top: 30%;
+    text-align: center;
+    
+}
+.user-number{
+    text-align: center;
+}

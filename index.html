@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="firstQuestion(0)">
+    <div class="main-page">
+        <div class="header">
+            <h4>Welcome! <span class="names"></span></h4>
+            <h4><span id="count">Question</span></h4>
+        </div>
+        <div class="body-part">
+            <h2 id="oneQuestion"> Questions quiz application ? </h2>
+            <ul class="options">
+                <li class="select" id="select" onclick="activeClass(this)">slt 1</li>
+                <li class="select" id="select" onclick="activeClass(this)">slt 2</li>
+                <li class="select" id="select" onclick="activeClass(this)">slt 3</li>
+                <li class="select" id="select" onclick="activeClass(this)">slt 4</li>
+            </ul>
+            <button class="next-btn" onclick="mainButton()">Next Question</button>
+            <button id="final-result" class="next-btn" >Result </button>
+            <strong>
+                <p>after you have solved the three questions, click on the result button</p>
+            </strong> 
+
+        
+        </div>
+    </div>
+<script src="app.js"></script>
+    <script src="last.js"></script>
+</body>
+</html>
